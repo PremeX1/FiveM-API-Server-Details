@@ -5,7 +5,7 @@ NodeJs and Python API for get server details
 ** Start API Server **
 
 ```
-./Python-FiveM-API/
+./Python/
 REQ: virtualenv 
 REQ: [env] pip install fastapi uvicorn[standard] requests
 Recommend - virtualenv to run uvicorn server
