@@ -1,6 +1,6 @@
 # FiveM-API Server Details
 
-NodeJs and Python API for get server details 
+A NodeJs and Python API for get server details 
 
 ** Start API Server **
 
