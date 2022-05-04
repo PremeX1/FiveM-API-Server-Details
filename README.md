@@ -26,7 +26,7 @@ Python without fastapi
 ```python
 from FiveM_API import API
 
-app = API("127.0.0.1","30120"); #Set you server ip default 127.0.0.1:30120(Home Hosted)
+app = API("127.0.0.1","30120"); #Set your server ip default 127.0.0.1:30120(Home Hosted)
 	
 token = app.getToken() #get server join token
 		
@@ -37,9 +37,9 @@ return (data["Data"])
 Nodejs without express
 ```js
 const api = require('./FiveM-API.js');
-const app = new api('127.0.0.1', '30120'); //FiveM API
+const app = new api('127.0.0.1', '30120'); //Set your server ip default 127.0.0.1:30120(Home Hosted)
     
-app.getToken().then((token)=> {
+app.getToken().then((token)=> { //get server join token (async func)
 	app.getInfo(token).then((data) => {
 		console.log(data.data);
 	})
